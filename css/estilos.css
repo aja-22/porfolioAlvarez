@@ -1,7 +1,7 @@
 /*Agregando la fuente que utilizaremos en la pagina*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,35 +13,43 @@ html {
     scroll-behavior: auto;
 }
 
-.carousel-inner h5{
+/* ESTILOS BOOTSTRAP CAROUSEL*/
+
+.carousel-inner h5 {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
     color: white;
 }
 
-.carousel-inner p{
+.carousel-inner p {
     font-weight: bold;
     font-size: 1.5em;
     color: white;
 }
 
-.carousel-inner span{
+.carousel-inner span {
     color: green;
 }
 
-.carousel-item span{
-    color:green
+.carousel-item span {
+    color: green
 }
-.navbar-brand{
+
+/* ESTILOS BOOTSTRAP-NAVBAR */
+.navbar-brand {
     color: green;
     font-weight: bold;
     font-size: 2em;
 }
 
-.nav-item{
+.nav-item {
     font-weight: bold;
-    color:black
+    color: black;
+}
+
+.nav-link {
+    color: black !important;
 }
 
 
