@@ -305,12 +305,13 @@ h2 {
     width: 100%;
 }
 
-#contacto .btn-enviar {
+.fila {
+    text-align: center;
     display: block;
     margin: auto;
     cursor: pointer;
     transition: .5s;
-    padding: 10px 15px;
+    padding: 5px 10px;
     font-weight: bold;
 }
 
