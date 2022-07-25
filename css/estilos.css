@@ -13,125 +13,37 @@ html {
     scroll-behavior: auto;
 }
 
-#inicio{
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(/imagenes/Foto\ inicio\ .png);
-    background-size: cover;
-    background-position: center center;
-    height: 90vh;
-}
-
-#inicio .contenido-header {
-    background-color: rgba(0, 0, 0, .5);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-}
-
-#inicio .contenido header .contenido-header {
-    max-width: auto;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-
-}
-
-.contenido-header h1 {
+.carousel-inner h5{
     text-align: center;
-    color: green;
-
-}
-
-.contenido-header nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.contenido-header nav ul li a {
-    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
     color: white;
-    margin: 0 12px;
-    font-weight: 400;
-    transition: .5s;
 }
 
-#inicio .contenido header .contenido-header nav ul a:hover {
-    color: green
+.carousel-inner p{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
 }
 
-#inicio .contenido header .contenido-header .redes a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin-left: 10px;
-    transition: .5s;
+.carousel-inner span{
+    color: green;
 }
 
-#inicio .contenido header .contenido-header .redes a:hover {
-    color: green
+.carousel-item span{
+    color:green
 }
-
-#inicio .contenido .presentacion {
-    max-width: auto;
-    height: 100vh;
-    margin: auto;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#inicio .contenido .presentacion .bienvenida {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-#inicio .contenido .presentacion h2 {
-    font-size: 45px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-#inicio .contenido .presentacion h2 span {
-    font-size: 50px;
+.navbar-brand{
     color: green;
     font-weight: bold;
+    font-size: 2em;
 }
 
-#inicio .contenido .presentacion .descripcion {
-    max-width: auto;
-    margin: 25px auto;
-    font-size: 15px;
-    text-align: center;
-}
-
-#inicio .contenido .presentacion a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 25px;
-    padding: 20px 25px;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    color: #fff;
+.nav-item{
     font-weight: bold;
-    text-transform: uppercase;
-    transition: .5s;
+    color:black
 }
 
-#inicio .contenido .presentacion a:hover {
-    background-color: green;
-}
-
-#icono-nav {
-    color: #fff;
-    display: none;
-}
 
 /*SECCION-SOBRE MI*/
 
@@ -306,35 +218,35 @@ h2 {
 }
 
 .item1 {
-    background-image: url(/imagenes/Foto\ Portfolio.png);
+    background-image: url(../imagenes/Foto\ Portfolio.png);
 }
 
 .item2 {
-    background-image: url(/imagenes/Foto\ portfolio2.png);
+    background-image: url(../imagenes/Foto\ portfolio2.png);
 }
 
 .item3 {
-    background-image: url(/imagenes/Foto\ portfolio3.png);
+    background-image: url(../imagenes/Foto\ portfolio3.png);
 }
 
 .item4 {
-    background-image: url(/imagenes/Foto\ portfolio4.png);
+    background-image: url(../imagenes/Foto\ portfolio4.png);
 }
 
 .item5 {
-    background-image: url(/imagenes/Foto\ portfolio5.png);
+    background-image: url(../imagenes/Foto\ portfolio5.png);
 }
 
 .item6 {
-    background-image: url(/imagenes/Foto\ portfolio6.png);
+    background-image: url(../imagenes/Foto\ portfolio6.png);
 }
 
 .item7 {
-    background-image: url(/imagenes/Foto\ portfolio7.png);
+    background-image: url(../imagenes/Foto\ portfolio7.png);
 }
 
 .item8 {
-    background-image: url(/imagenes/portfolio\ 12.png);
+    background-image: url(../imagenes/portfolio\ 12.png);
 }
 
 .galeria {
