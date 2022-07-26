@@ -9,9 +9,9 @@
 }
 
 
-html {
+/*html {
     scroll-behavior: auto;
-}
+}*/
 
 /* ESTILOS BOOTSTRAP CAROUSEL*/
 
@@ -52,6 +52,9 @@ html {
     color: black !important;
 }
 
+.navbar-nav {
+    margin-left: auto;
+}
 
 /*SECCION-SOBRE MI*/
 
@@ -77,13 +80,13 @@ html {
 }
 
 #sobremi .sobremi .titulo-seccion {
+    text-align: left;
+    color: black;
     font-size: 30px;
     font-weight: bold;
-    text-transform: uppercase;
-    color: black;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
     text-decoration: underline;
-    text-decoration-color: #fff;
-    text-decoration-thickness: 5px;
 }
 
 #sobremi .sobremi h2 {
@@ -136,13 +139,13 @@ html {
 }
 
 #servicios .titulo-seccion {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
+    text-align: center;
     color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
     text-decoration: underline;
-    text-decoration-color: #fff;
-    text-decoration-thickness: 5px;
 }
 
 #servicios .fila {
@@ -171,16 +174,6 @@ html {
     margin-bottom: 25px;
 }
 
-#servicios .fila .servicio .icono {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #d3d3d3;
-    padding: 20px;
-    margin-bottom: 25px;
-}
-
 #servicios .fila .servicios hr {
     width: 30%;
     margin: auto;
@@ -203,10 +196,12 @@ html {
 
 h2 {
     text-align: center;
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
     text-shadow: 2px 2px 5px #333;
     text-transform: capitalize;
+    text-decoration: underline;
 }
 
 .galeria {
@@ -267,12 +262,13 @@ h2 {
 }
 
 #contacto .titulo-seccion {
-    margin-bottom: 20px;
     text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
     text-decoration: underline;
-    text-decoration-color: green;
 }
 
 #contacto-seccion-form {
@@ -324,7 +320,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 footer a {
@@ -415,8 +411,11 @@ footer a {
 
 }
 
-
-.galeria {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+@media screen and (min-width:1200px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        position: absolute;
+    }
 }
